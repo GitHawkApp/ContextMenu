@@ -1,0 +1,4 @@
+target 'Example' do
+  use_frameworks!
+  pod 'ContextMenu', :path => '../ContextMenu.podspec'
+end

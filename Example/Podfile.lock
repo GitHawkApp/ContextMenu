@@ -1,0 +1,16 @@
+PODS:
+  - ContextMenu (0.1.0)
+
+DEPENDENCIES:
+  - ContextMenu (from `../ContextMenu.podspec`)
+
+EXTERNAL SOURCES:
+  ContextMenu:
+    :path: ../ContextMenu.podspec
+
+SPEC CHECKSUMS:
+  ContextMenu: 74f68e96197cdbfb1b5d91c703cc0906bc914cfc
+
+PODFILE CHECKSUM: aa060c7f3a10a9cb8b2633f1297c22bb65e4f54d
+
+COCOAPODS: 1.4.0
