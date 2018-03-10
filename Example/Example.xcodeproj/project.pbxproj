@@ -63,13 +63,13 @@
 		2971CEA4205454BD00342296 /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				2971CEB72054553400342296 /* MenuViewController.swift */,
 				2971CEA5205454BD00342296 /* AppDelegate.swift */,
-				2971CEA7205454BD00342296 /* ViewController.swift */,
-				2971CEA9205454BD00342296 /* Main.storyboard */,
 				2971CEAC205454BD00342296 /* Assets.xcassets */,
-				2971CEAE205454BD00342296 /* LaunchScreen.storyboard */,
 				2971CEB1205454BD00342296 /* Info.plist */,
+				2971CEAE205454BD00342296 /* LaunchScreen.storyboard */,
+				2971CEA9205454BD00342296 /* Main.storyboard */,
+				2971CEB72054553400342296 /* MenuViewController.swift */,
+				2971CEA7205454BD00342296 /* ViewController.swift */,
 			);
 			path = Example;
 			sourceTree = "<group>";

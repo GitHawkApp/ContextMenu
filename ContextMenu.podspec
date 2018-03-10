@@ -7,4 +7,6 @@ Pod::Spec.new do |spec|
   spec.summary      = 'Context menu inspired by Things 3.'
   spec.source       = { :git => 'https://github.com/GitHawkApp/ContextMenu.git', :tag => '#{s.version}' }
   spec.source_files = 'ContextMenu/*.swift'
+  spec.platform     = :ios, '10.0'
+  spec.swift_version = '4.0'
 end

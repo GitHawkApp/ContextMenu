@@ -15,9 +15,7 @@
   },
   "source_files": "ContextMenu/*.swift",
   "platforms": {
-    "osx": null,
-    "ios": null,
-    "tvos": null,
-    "watchos": null
-  }
+    "ios": "10.0"
+  },
+  "swift_version": "4.0"
 }

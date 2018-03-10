@@ -27,8 +27,23 @@ internal class ClippedContainerViewController: UIViewController {
         super.viewDidLoad()
         view.layer.cornerRadius = options.containerStyle.cornerRadius
         view.layer.shadowRadius = options.containerStyle.shadowRadius
+        view.layer.shadowOpacity = options.containerStyle.shadowOpacity
         view.layer.shadowColor = UIColor.black.cgColor
-        view.layer.shadowOpacity = 0.2
+
+        if options.containerStyle.motionEffect {
+            let amount = 12
+            let tiltX = UIInterpolatingMotionEffect(keyPath: "center.x", type: .tiltAlongHorizontalAxis)
+            tiltX.minimumRelativeValue = -amount
+            tiltX.maximumRelativeValue = amount
+
+            let tiltY = UIInterpolatingMotionEffect(keyPath: "center.y", type: .tiltAlongVerticalAxis)
+            tiltY.minimumRelativeValue = -amount
+            tiltY.maximumRelativeValue = amount
+
+            let group = UIMotionEffectGroup()
+            group.motionEffects = [tiltX, tiltY]
+            view.addMotionEffect(group)
+        }
 
         containedViewController.view.layer.cornerRadius = view.layer.cornerRadius
         containedViewController.view.clipsToBounds = true

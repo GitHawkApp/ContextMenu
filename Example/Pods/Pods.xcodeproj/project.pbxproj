@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		076F001444726AABF19EDF3AE0030DE6 /* ContextMenu+Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DDD555C4F32B86F69F2CCE692E87C1 /* ContextMenu+Item.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		124D99BD9430F3AB4A6DF8E255DCA46A /* ContextMenu+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99C513A5107C353567935F9D81AA652 /* ContextMenu+Animations.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		1B66E33B588115713F5B90C812A0139C /* ContextMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F35176CEE9BAAD80281A0DF595B0D25 /* ContextMenu-dummy.m */; };
-		1EF18353721727430EEB0909C7305CFE /* SourceViewCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333B6A8DDD5E59721593B55968D63FAB /* SourceViewCorner.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		21EC9664F21956FADCEF9134F909B74A /* CGRect+Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E5199A0158EA7B553B582999281E75 /* CGRect+Area.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		2A9FDD9927F1A610C304492868BDC5D0 /* ContextMenuPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4372D257F4D95B7947C8B75C44589837 /* ContextMenuPresentationController.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		29004463EA77E281BC76D155ADB9020F /* ContextMenuPresenting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248C9B4FF0D3F81A06280C402C567D88 /* ContextMenuPresenting.swift */; };
+		31B67E27C8932833B5F23A70D2A1A18F /* ContextMenu+ContextMenuPresentationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9625EE0940E5B6D28DE87B9A9AA394 /* ContextMenu+ContextMenuPresentationControllerDelegate.swift */; };
 		32BD703743B0B8B75A5832596BBDD912 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3363E5B3A2FD80DD2F523DEA110AD23D /* ClippedContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3903BCCBC56DE7698C23F1B9D7025 /* ClippedContainerViewController.swift */; };
 		40F454BB711499A3B137B3CD6180DCD4 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD65E35A3233FBE6F2EFDEB3D43D114 /* Pods-Example-dummy.m */; };
-		5781C6CCB5DE969BD2B288E1C5324350 /* ContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083F96FBD20FBEB55E326904926AB872 /* ContextMenu.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		60DB52EBDF12A3EB0DFB1DBACF33A21C /* ClippedContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3903BCCBC56DE7698C23F1B9D7025 /* ClippedContainerViewController.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		6E2F766F9F48371E7CA5E0F47F1A6EEC /* ContextMenuPresenting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248C9B4FF0D3F81A06280C402C567D88 /* ContextMenuPresenting.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		511F9D7A1F1A172CA89DD401A12E442E /* ContextMenuPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4372D257F4D95B7947C8B75C44589837 /* ContextMenuPresentationController.swift */; };
+		53B0CE3D9CAB2490DB94E726AA469C4B /* ContextMenu+ContainerStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F09346CD57031C9F4615B373489CCB0 /* ContextMenu+ContainerStyle.swift */; };
+		5789B58F3338651E84452B085E2CC7AA /* ContextMenuDismissing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4458DFE4EB0642A02F5AFCD928B409F7 /* ContextMenuDismissing.swift */; };
+		6044456AABCB0211A94A96C4E7C41CF4 /* ContextMenu+Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DDD555C4F32B86F69F2CCE692E87C1 /* ContextMenu+Item.swift */; };
+		6B13209979CF19E1E726F7059AE91A89 /* ContextMenu+UIViewControllerTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DBAFC09AB1344CE2E45DEE323F5406 /* ContextMenu+UIViewControllerTransitioningDelegate.swift */; };
 		71B3B8136D9A8DACBBD76C3B1272FE02 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15D3FE98E9F2D34863BD3F3597A0485A /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		787A1CED76E70C77A3DD9B9B7752812C /* ContextMenu+Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474D16CA3C348A373EFF57AD26B722F2 /* ContextMenu+Options.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		815B8988E0BCCDEF999236F4D8559306 /* ContextMenu+MenuStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62168363D7BF0CE18A35DC197FA28EE2 /* ContextMenu+MenuStyle.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		75A781BF4CB0EDE380DD15E4D504B69D /* ContextMenu+Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474D16CA3C348A373EFF57AD26B722F2 /* ContextMenu+Options.swift */; };
+		8BA5F415846C5CDFB898F992F514425D /* ContextMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F35176CEE9BAAD80281A0DF595B0D25 /* ContextMenu-dummy.m */; };
+		A912935A70F53FE5706F816CA00A1B87 /* ContextMenu+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99C513A5107C353567935F9D81AA652 /* ContextMenu+Animations.swift */; };
 		B249B66E738181ADC06D5F535E15ACB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		C0BD94C6FD169D88161473F1C6250C0A /* ContextMenuDismissing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4458DFE4EB0642A02F5AFCD928B409F7 /* ContextMenuDismissing.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B495981AA0156AED9F5AFF5427AC4B99 /* SourceViewCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333B6A8DDD5E59721593B55968D63FAB /* SourceViewCorner.swift */; };
 		C688343B3B6107C07545D1AB5A931DF3 /* ContextMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3EAB79C04F9B0D923F8793CFDA2DD07 /* ContextMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC1D347FD60D409088D72BEB33249564 /* ContextMenu+UIViewControllerTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DBAFC09AB1344CE2E45DEE323F5406 /* ContextMenu+UIViewControllerTransitioningDelegate.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		D50CEA488C152C5FE3F547F038B7BCC0 /* ContextMenu+ContextMenuPresentationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9625EE0940E5B6D28DE87B9A9AA394 /* ContextMenu+ContextMenuPresentationControllerDelegate.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		ED8938E64121FD9659C3469F672F1B50 /* ContextMenu+ContainerStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F09346CD57031C9F4615B373489CCB0 /* ContextMenu+ContainerStyle.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E119E1F08583FB65F0EEA26D35A963A2 /* ContextMenu+MenuStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62168363D7BF0CE18A35DC197FA28EE2 /* ContextMenu+MenuStyle.swift */; };
+		EBC0F04EB8E02903FAF43834427C054B /* CGRect+Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E5199A0158EA7B553B582999281E75 /* CGRect+Area.swift */; };
+		EBDF697639505492990E5BBA82E23F14 /* ContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083F96FBD20FBEB55E326904926AB872 /* ContextMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -261,7 +261,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11FA8D253AF9022C08CF03380C0FABE1 /* Build configuration list for PBXNativeTarget "ContextMenu" */;
 			buildPhases = (
-				5C41E0B82C7A128B2905EE8DE18BB314 /* Sources */,
+				25FAA96C2EC5D6480E5D9FFD213E689E /* Sources */,
 				11A115FAF4DA547D1E09F39B8EBE85F1 /* Frameworks */,
 				AF762F200BA5827FC8DC4B06A78DC0F9 /* Headers */,
 			);
@@ -302,25 +302,25 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5C41E0B82C7A128B2905EE8DE18BB314 /* Sources */ = {
+		25FAA96C2EC5D6480E5D9FFD213E689E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21EC9664F21956FADCEF9134F909B74A /* CGRect+Area.swift in Sources */,
-				60DB52EBDF12A3EB0DFB1DBACF33A21C /* ClippedContainerViewController.swift in Sources */,
-				124D99BD9430F3AB4A6DF8E255DCA46A /* ContextMenu+Animations.swift in Sources */,
-				ED8938E64121FD9659C3469F672F1B50 /* ContextMenu+ContainerStyle.swift in Sources */,
-				D50CEA488C152C5FE3F547F038B7BCC0 /* ContextMenu+ContextMenuPresentationControllerDelegate.swift in Sources */,
-				076F001444726AABF19EDF3AE0030DE6 /* ContextMenu+Item.swift in Sources */,
-				815B8988E0BCCDEF999236F4D8559306 /* ContextMenu+MenuStyle.swift in Sources */,
-				787A1CED76E70C77A3DD9B9B7752812C /* ContextMenu+Options.swift in Sources */,
-				CC1D347FD60D409088D72BEB33249564 /* ContextMenu+UIViewControllerTransitioningDelegate.swift in Sources */,
-				1B66E33B588115713F5B90C812A0139C /* ContextMenu-dummy.m in Sources */,
-				5781C6CCB5DE969BD2B288E1C5324350 /* ContextMenu.swift in Sources */,
-				C0BD94C6FD169D88161473F1C6250C0A /* ContextMenuDismissing.swift in Sources */,
-				2A9FDD9927F1A610C304492868BDC5D0 /* ContextMenuPresentationController.swift in Sources */,
-				6E2F766F9F48371E7CA5E0F47F1A6EEC /* ContextMenuPresenting.swift in Sources */,
-				1EF18353721727430EEB0909C7305CFE /* SourceViewCorner.swift in Sources */,
+				EBC0F04EB8E02903FAF43834427C054B /* CGRect+Area.swift in Sources */,
+				3363E5B3A2FD80DD2F523DEA110AD23D /* ClippedContainerViewController.swift in Sources */,
+				A912935A70F53FE5706F816CA00A1B87 /* ContextMenu+Animations.swift in Sources */,
+				53B0CE3D9CAB2490DB94E726AA469C4B /* ContextMenu+ContainerStyle.swift in Sources */,
+				31B67E27C8932833B5F23A70D2A1A18F /* ContextMenu+ContextMenuPresentationControllerDelegate.swift in Sources */,
+				6044456AABCB0211A94A96C4E7C41CF4 /* ContextMenu+Item.swift in Sources */,
+				E119E1F08583FB65F0EEA26D35A963A2 /* ContextMenu+MenuStyle.swift in Sources */,
+				75A781BF4CB0EDE380DD15E4D504B69D /* ContextMenu+Options.swift in Sources */,
+				6B13209979CF19E1E726F7059AE91A89 /* ContextMenu+UIViewControllerTransitioningDelegate.swift in Sources */,
+				8BA5F415846C5CDFB898F992F514425D /* ContextMenu-dummy.m in Sources */,
+				EBDF697639505492990E5BBA82E23F14 /* ContextMenu.swift in Sources */,
+				5789B58F3338651E84452B085E2CC7AA /* ContextMenuDismissing.swift in Sources */,
+				511F9D7A1F1A172CA89DD401A12E442E /* ContextMenuPresentationController.swift in Sources */,
+				29004463EA77E281BC76D155ADB9020F /* ContextMenuPresenting.swift in Sources */,
+				B495981AA0156AED9F5AFF5427AC4B99 /* SourceViewCorner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,10 +442,11 @@
 			};
 			name = Debug;
 		};
-		88C55FD0D32E908EE2717AA95BF9185A /* Release */ = {
+		8042280493369F6D934721FDD6DBF7D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5A5ED5343F3693436571E370FA1D9B25 /* ContextMenu.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -458,7 +459,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ContextMenu/ContextMenu-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ContextMenu/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ContextMenu/ContextMenu.modulemap";
 				PRODUCT_NAME = ContextMenu;
@@ -473,37 +474,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		9AE385182761F2A5528F32131331D1CB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A5ED5343F3693436571E370FA1D9B25 /* ContextMenu.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ContextMenu/ContextMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ContextMenu/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ContextMenu/ContextMenu.modulemap";
-				PRODUCT_NAME = ContextMenu;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		C72736E31C25E34B154DFAA69EFB6E7F /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -598,14 +568,46 @@
 			};
 			name = Release;
 		};
+		D70C72D4BCD06ED83B9D9D35B9EC3B52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A5ED5343F3693436571E370FA1D9B25 /* ContextMenu.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ContextMenu/ContextMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ContextMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ContextMenu/ContextMenu.modulemap";
+				PRODUCT_NAME = ContextMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		11FA8D253AF9022C08CF03380C0FABE1 /* Build configuration list for PBXNativeTarget "ContextMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9AE385182761F2A5528F32131331D1CB /* Debug */,
-				88C55FD0D32E908EE2717AA95BF9185A /* Release */,
+				D70C72D4BCD06ED83B9D9D35B9EC3B52 /* Debug */,
+				8042280493369F6D934721FDD6DBF7D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

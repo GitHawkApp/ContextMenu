@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../ContextMenu.podspec
 
 SPEC CHECKSUMS:
-  ContextMenu: 74f68e96197cdbfb1b5d91c703cc0906bc914cfc
+  ContextMenu: f542992e2dd56e8a116a59a2ab5a215637982744
 
 PODFILE CHECKSUM: aa060c7f3a10a9cb8b2633f1297c22bb65e4f54d
 

@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         ContextMenu.shared.show(
             sourceViewController: self,
             viewController: MenuViewController(),
-            sourceView: nil
+            sourceView: button
         )
     }
 
