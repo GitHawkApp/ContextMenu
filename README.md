@@ -41,7 +41,7 @@ class MyContentViewController: UIViewController {
 
 Animate the menu out from a button or view. `ContextMenu` will take care of layout so that your menu doesn't clip the screen.
 
-```
+```swift
 @IBAction func onButton(_ sender: UIButton) {
   ContextMenu.shared.show(
     sourceViewController: self,
