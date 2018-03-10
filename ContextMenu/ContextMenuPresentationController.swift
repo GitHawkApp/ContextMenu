@@ -126,7 +126,6 @@ internal class ContextMenuPresentationController: UIPresentationController {
             delay: 0,
             usingSpringWithDamping: item.options.durations.springDamping,
             initialSpringVelocity: item.options.durations.springVelocity,
-            options: [],
             animations: {
                 self.presentedView?.layer.transform = CATransform3DIdentity
         })
