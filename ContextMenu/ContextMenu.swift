@@ -12,8 +12,8 @@ public class ContextMenu: NSObject {
 
     public static let shared = ContextMenu()
 
-    internal var item: Item?
-    internal let haptics = UISelectionFeedbackGenerator()
+    var item: Item?
+    let haptics = UISelectionFeedbackGenerator()
 
     public func show(
         sourceViewController: UIViewController,

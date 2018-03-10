@@ -10,14 +10,14 @@ import UIKit
 
 extension CGRect {
 
-    internal func rect(point: CGPoint, xRemainder: Bool, yRemainder: Bool) -> CGRect {
+    func rect(point: CGPoint, xRemainder: Bool, yRemainder: Bool) -> CGRect {
         let xDiv = divided(atDistance: point.x, from: .minXEdge)
         let x = xRemainder ? xDiv.remainder : xDiv.slice
         let yDiv = x.divided(atDistance: point.y, from: .minYEdge)
         return yRemainder ? yDiv.remainder : yDiv.slice
     }
 
-    internal func area(corner: SourceViewCorner) -> CGFloat {
+    func area(corner: SourceViewCorner) -> CGFloat {
         let frame: CGRect
         switch corner.position {
         case .topLeft:
