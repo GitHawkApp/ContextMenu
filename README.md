@@ -78,5 +78,5 @@ If you want more customizations, we will gladly accept a Pull Request!
 
 ## Acknowledgements
 
-- Heavy inspiration from [SlackTextViewController](https://github.com/slackhq/SlackTextViewController)
+- Inspiration from [Things 3](https://culturedcode.com/things/)
 - Created with ❤️ by [Ryan Nystrom](https://twitter.com/_ryannystrom)
