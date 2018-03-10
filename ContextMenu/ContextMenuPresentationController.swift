@@ -8,11 +8,11 @@
 
 import UIKit
 
-internal protocol ContextMenuPresentationControllerDelegate: class {
+protocol ContextMenuPresentationControllerDelegate: class {
     func willDismiss(presentationController: ContextMenuPresentationController)
 }
 
-internal class ContextMenuPresentationController: UIPresentationController {
+class ContextMenuPresentationController: UIPresentationController {
 
     weak var contextDelegate: ContextMenuPresentationControllerDelegate?
     let item: ContextMenu.Item

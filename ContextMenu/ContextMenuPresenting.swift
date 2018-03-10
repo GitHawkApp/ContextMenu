@@ -8,7 +8,7 @@
 
 import UIKit
 
-internal class ContextMenuPresenting: NSObject, UIViewControllerAnimatedTransitioning {
+class ContextMenuPresenting: NSObject, UIViewControllerAnimatedTransitioning {
 
     private let item: ContextMenu.Item
 

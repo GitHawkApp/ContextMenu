@@ -8,7 +8,7 @@
 
 import UIKit
 
-internal class ClippedContainerViewController: UIViewController {
+class ClippedContainerViewController: UIViewController {
 
     private let options: ContextMenu.Options
     private let containedViewController: UINavigationController
