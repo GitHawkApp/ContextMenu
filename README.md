@@ -2,6 +2,10 @@
   <img src="/images/animation.gif" />
 </p>
 
+- Contextual menus with delightful animations and styles
+- Total control over menu contents using your own `UIViewController`s
+- Tons of feature and interaction customizations
+
 ## Installation
 
 Just add `ContextMenu` to your Podfile and `pod install`. Done!
