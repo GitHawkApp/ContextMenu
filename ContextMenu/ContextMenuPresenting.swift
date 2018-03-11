@@ -16,7 +16,7 @@ class ContextMenuPresenting: NSObject, UIViewControllerAnimatedTransitioning {
         self.item = item
     }
 
-    public func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
+    func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         guard let toViewController = transitionContext.viewController(forKey: .to) else { return }
 
         let containerView = transitionContext.containerView
@@ -31,7 +31,7 @@ class ContextMenuPresenting: NSObject, UIViewControllerAnimatedTransitioning {
         }
     }
 
-    public func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
+    func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         return item.options.durations.present
     }
 

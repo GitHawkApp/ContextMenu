@@ -16,7 +16,7 @@ class ContextMenuDismissing: NSObject, UIViewControllerAnimatedTransitioning {
         self.item = item
     }
 
-    public func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
+    func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         guard let fromViewController = transitionContext.viewController(forKey: .from) else { return }
 
         UIView.animate(withDuration: transitionDuration(using: transitionContext), animations: {
@@ -26,7 +26,7 @@ class ContextMenuDismissing: NSObject, UIViewControllerAnimatedTransitioning {
         }
     }
 
-    public func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
+    func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         return item.options.durations.dismiss
     }
 
