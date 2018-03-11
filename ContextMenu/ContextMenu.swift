@@ -31,6 +31,10 @@ public class ContextMenu: NSObject {
         options: Options = Options(),
         sourceView: UIView? = nil
         ) {
+        if let previous = self.item {
+            previous.viewController.dismiss(animated: false)
+        }
+
         if options.haptics {
             haptics.selectionChanged()
         }
