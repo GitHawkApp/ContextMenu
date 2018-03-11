@@ -30,7 +30,7 @@ class MenuViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.textLabel?.text = "Option \(indexPath.row)"
-        cell.textLabel?.font = UIFont.boldSystemFont(ofSize: 17)
+        cell.textLabel?.font = .boldSystemFont(ofSize: 17)
         cell.textLabel?.textColor = .white
         cell.backgroundColor = .clear
         cell.accessoryType = .disclosureIndicator
