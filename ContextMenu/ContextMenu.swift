@@ -13,7 +13,7 @@ public class ContextMenu: NSObject {
     public static let shared = ContextMenu()
 
     var item: Item?
-    let haptics = UISelectionFeedbackGenerator()
+    let haptics = UIImpactFeedbackGenerator(style: .medium)
 
     public func show(
         sourceViewController: UIViewController,
@@ -22,7 +22,7 @@ public class ContextMenu: NSObject {
         sourceView: UIView? = nil
         ) {
         if options.haptics {
-            haptics.selectionChanged()
+            haptics.impactOccurred()
         }
 
         let item = Item(
