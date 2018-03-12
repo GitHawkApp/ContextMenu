@@ -22,6 +22,7 @@
 		2971CE96205453D900342296 /* SourceViewCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2971CE88205453D900342296 /* SourceViewCorner.swift */; };
 		2971CE97205453D900342296 /* ContextMenuPresenting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2971CE89205453D900342296 /* ContextMenuPresenting.swift */; };
 		2971CE98205453D900342296 /* CGRect+Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2971CE8A205453D900342296 /* CGRect+Area.swift */; };
+		DE5D838B2055D72A0069A81D /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5D838A2055D72A0069A81D /* UIViewController+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		2971CE88205453D900342296 /* SourceViewCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceViewCorner.swift; sourceTree = "<group>"; };
 		2971CE89205453D900342296 /* ContextMenuPresenting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContextMenuPresenting.swift; sourceTree = "<group>"; };
 		2971CE8A205453D900342296 /* CGRect+Area.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Area.swift"; sourceTree = "<group>"; };
+		DE5D838A2055D72A0069A81D /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				2971CE89205453D900342296 /* ContextMenuPresenting.swift */,
 				2971CE762054539900342296 /* Info.plist */,
 				2971CE88205453D900342296 /* SourceViewCorner.swift */,
+				DE5D838A2055D72A0069A81D /* UIViewController+Extensions.swift */,
 			);
 			path = ContextMenu;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				2971CE90205453D900342296 /* ContextMenuDismissing.swift in Sources */,
 				2971CE94205453D900342296 /* ContextMenu+MenuStyle.swift in Sources */,
 				2971CE8E205453D900342296 /* ContextMenu+ContainerStyle.swift in Sources */,
+				DE5D838B2055D72A0069A81D /* UIViewController+Extensions.swift in Sources */,
 				2971CE95205453D900342296 /* ClippedContainerViewController.swift in Sources */,
 				2971CE96205453D900342296 /* SourceViewCorner.swift in Sources */,
 				2971CE8F205453D900342296 /* ContextMenu+Item.swift in Sources */,
