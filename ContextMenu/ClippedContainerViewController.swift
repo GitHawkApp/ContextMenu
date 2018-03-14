@@ -32,7 +32,7 @@ class ClippedContainerViewController: UIViewController {
         view.layer.shadowColor = UIColor.black.cgColor
         view.backgroundColor = options.containerStyle.backgroundColor
 
-        if options.containerStyle.motionEffect {
+        if options.containerStyle.motionEffect && UIAccessibilityIsReduceMotionEnabled() == false {
             let amount = 12
             let tiltX = UIInterpolatingMotionEffect(keyPath: "center.x", type: .tiltAlongHorizontalAxis)
             tiltX.minimumRelativeValue = -amount
