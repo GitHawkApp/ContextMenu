@@ -25,6 +25,7 @@ public class ContextMenu: NSObject {
     ///   - viewController: A content view controller to use inside the menu.
     ///   - options: Display and behavior options for a menu.
     ///   - sourceView: A source view for menu context. If nil, menu displays from the center of the screen.
+    ///   - delegate: A delegate the receives events when the menu changes.
     public func show(
         sourceViewController: UIViewController,
         viewController: UIViewController,
