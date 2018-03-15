@@ -7,26 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29004463EA77E281BC76D155ADB9020F /* ContextMenuPresenting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248C9B4FF0D3F81A06280C402C567D88 /* ContextMenuPresenting.swift */; };
-		31B67E27C8932833B5F23A70D2A1A18F /* ContextMenu+ContextMenuPresentationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9625EE0940E5B6D28DE87B9A9AA394 /* ContextMenu+ContextMenuPresentationControllerDelegate.swift */; };
+		035CEF32DA4C5D1DCA33C614CEB17913 /* ContextMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DD3DF68FA265165A9C960C87FA9B555 /* ContextMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03C7D3FAC04C2CC8CFC5D8B8B5662F99 /* ContextMenu+MenuStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EACC934B425B94E0AC66C11F914C5B /* ContextMenu+MenuStyle.swift */; };
+		20D5042ECFA20AA664AAE1E20D77806E /* ContextMenuDismissing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80691B6A70DF37D3B71B5BE2CBD7887B /* ContextMenuDismissing.swift */; };
+		2E74EA4FD27725BA605672D98EF5775A /* ContextMenuPresenting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7384709B9EFCE2A4C4DA7AD397D8C92 /* ContextMenuPresenting.swift */; };
+		3293BFE2E95182659C0545055872E33A /* SourceViewCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B25A99DEC14DE8ED73B2253DA28C61 /* SourceViewCorner.swift */; };
 		32BD703743B0B8B75A5832596BBDD912 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		3363E5B3A2FD80DD2F523DEA110AD23D /* ClippedContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3903BCCBC56DE7698C23F1B9D7025 /* ClippedContainerViewController.swift */; };
+		34611D820062FF0D2537BA5BB77FC49F /* ContextMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B000328F90D8A5D58AF2823DE7572A /* ContextMenu-dummy.m */; };
+		34DE824BF8077EF1C9325550AC2F1367 /* ContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEB16962167FB991B230C703581DEB6 /* ContextMenu.swift */; };
 		40F454BB711499A3B137B3CD6180DCD4 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD65E35A3233FBE6F2EFDEB3D43D114 /* Pods-Example-dummy.m */; };
-		511F9D7A1F1A172CA89DD401A12E442E /* ContextMenuPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4372D257F4D95B7947C8B75C44589837 /* ContextMenuPresentationController.swift */; };
-		53B0CE3D9CAB2490DB94E726AA469C4B /* ContextMenu+ContainerStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F09346CD57031C9F4615B373489CCB0 /* ContextMenu+ContainerStyle.swift */; };
-		5789B58F3338651E84452B085E2CC7AA /* ContextMenuDismissing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4458DFE4EB0642A02F5AFCD928B409F7 /* ContextMenuDismissing.swift */; };
-		6044456AABCB0211A94A96C4E7C41CF4 /* ContextMenu+Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DDD555C4F32B86F69F2CCE692E87C1 /* ContextMenu+Item.swift */; };
-		6B13209979CF19E1E726F7059AE91A89 /* ContextMenu+UIViewControllerTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DBAFC09AB1344CE2E45DEE323F5406 /* ContextMenu+UIViewControllerTransitioningDelegate.swift */; };
+		457F0B73107CD96C71CAE03029AA8BDC /* CGRect+Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C37E5160ADE6D8A8F853EA04A37F16 /* CGRect+Area.swift */; };
+		5D1AF63F82B9CC3377710DC84424F6C5 /* ContextMenu+ContextMenuPresentationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38465B7FAD1178F371BB945E9F0CABD /* ContextMenu+ContextMenuPresentationControllerDelegate.swift */; };
+		67051657982C7F45AA72807C10028E40 /* ContextMenuPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C48FECAA4B036403FFB37558F775D /* ContextMenuPresentationController.swift */; };
 		71B3B8136D9A8DACBBD76C3B1272FE02 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15D3FE98E9F2D34863BD3F3597A0485A /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75A781BF4CB0EDE380DD15E4D504B69D /* ContextMenu+Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474D16CA3C348A373EFF57AD26B722F2 /* ContextMenu+Options.swift */; };
-		8BA5F415846C5CDFB898F992F514425D /* ContextMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F35176CEE9BAAD80281A0DF595B0D25 /* ContextMenu-dummy.m */; };
-		A912935A70F53FE5706F816CA00A1B87 /* ContextMenu+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99C513A5107C353567935F9D81AA652 /* ContextMenu+Animations.swift */; };
-		B249B66E738181ADC06D5F535E15ACB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B495981AA0156AED9F5AFF5427AC4B99 /* SourceViewCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333B6A8DDD5E59721593B55968D63FAB /* SourceViewCorner.swift */; };
-		C688343B3B6107C07545D1AB5A931DF3 /* ContextMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3EAB79C04F9B0D923F8793CFDA2DD07 /* ContextMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E119E1F08583FB65F0EEA26D35A963A2 /* ContextMenu+MenuStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62168363D7BF0CE18A35DC197FA28EE2 /* ContextMenu+MenuStyle.swift */; };
-		EBC0F04EB8E02903FAF43834427C054B /* CGRect+Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E5199A0158EA7B553B582999281E75 /* CGRect+Area.swift */; };
-		EBDF697639505492990E5BBA82E23F14 /* ContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083F96FBD20FBEB55E326904926AB872 /* ContextMenu.swift */; };
+		770FCA2E81351AFFDBBB678E9676AE06 /* ContextMenuDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E740D7A9F7277862B645221D4138C3C3 /* ContextMenuDelegate.swift */; };
+		C0026F3B533B8B9D029136A90B8FF394 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C9E30931E91AAE1145FC7B7CFF5698 /* UIViewController+Extensions.swift */; };
+		CCEA546C378D7EBCE8DC42F49AC65F01 /* ClippedContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDD0FF66B18CA43F3B6D561A5940E28 /* ClippedContainerViewController.swift */; };
+		D307CADFFC08A750DF71A1A103EE73CD /* ContextMenu+Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B629876410BD4AFE53A6624B62F35F /* ContextMenu+Options.swift */; };
+		E80E6DDC9FE58EC3B7EC11100268EA08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EC1E21465F6207B9A7B30612B2B2B01B /* ContextMenu+Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D2FD21EA79679A168A5A8C6C819F8D /* ContextMenu+Item.swift */; };
+		F2C6E55A1C6351BFF3B0CA6567DBF022 /* ContextMenu+ContainerStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CC10DCC8B20BE7FA1E83DF91AC1128 /* ContextMenu+ContainerStyle.swift */; };
+		F4DC47169A4414AEA6C20C8957416137 /* ContextMenu+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB3263FFBBDB53AAAD64847C8A05AD5 /* ContextMenu+Animations.swift */; };
+		FF75C687ABC833C17BE2CB3DF8B08820 /* ContextMenu+UIViewControllerTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857A884CBACB5A263D36125D985A6C4A /* ContextMenu+UIViewControllerTransitioningDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,57 +36,59 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 94E34967574FD8A9203CFB4086EA7849;
+			remoteGlobalIDString = C55C8E1E0367C61543FC7906E3E7159F;
 			remoteInfo = ContextMenu;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		044AA3E23F71470C9B5F50D44720EA0D /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
-		083F96FBD20FBEB55E326904926AB872 /* ContextMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContextMenu.swift; path = ContextMenu/ContextMenu.swift; sourceTree = "<group>"; };
 		11434BC759D12F57876FBB74A4775E74 /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		13CC10DCC8B20BE7FA1E83DF91AC1128 /* ContextMenu+ContainerStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ContextMenu+ContainerStyle.swift"; path = "ContextMenu/ContextMenu+ContainerStyle.swift"; sourceTree = "<group>"; };
+		14925AF7A0EBA4F460F20E4A272FD5C2 /* ContextMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ContextMenu.xcconfig; sourceTree = "<group>"; };
 		15D3FE98E9F2D34863BD3F3597A0485A /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
-		15DBAFC09AB1344CE2E45DEE323F5406 /* ContextMenu+UIViewControllerTransitioningDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ContextMenu+UIViewControllerTransitioningDelegate.swift"; path = "ContextMenu/ContextMenu+UIViewControllerTransitioningDelegate.swift"; sourceTree = "<group>"; };
 		1AD65E35A3233FBE6F2EFDEB3D43D114 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		248C9B4FF0D3F81A06280C402C567D88 /* ContextMenuPresenting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContextMenuPresenting.swift; path = ContextMenu/ContextMenuPresenting.swift; sourceTree = "<group>"; };
+		1DEB16962167FB991B230C703581DEB6 /* ContextMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContextMenu.swift; path = ContextMenu/ContextMenu.swift; sourceTree = "<group>"; };
 		25A37D4D536CC5988A439441117C41F4 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
-		2E9625EE0940E5B6D28DE87B9A9AA394 /* ContextMenu+ContextMenuPresentationControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ContextMenu+ContextMenuPresentationControllerDelegate.swift"; path = "ContextMenu/ContextMenu+ContextMenuPresentationControllerDelegate.swift"; sourceTree = "<group>"; };
-		333B6A8DDD5E59721593B55968D63FAB /* SourceViewCorner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourceViewCorner.swift; path = ContextMenu/SourceViewCorner.swift; sourceTree = "<group>"; };
+		35ADB0AAAFD77E7FAB3E79DAFD7738CE /* ContextMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ContextMenu-prefix.pch"; sourceTree = "<group>"; };
 		3ADE9E5655579DB0F79DC9C80758673C /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3F3EFEBDE6702DEFDFFF9D5C6DBC3773 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
-		4372D257F4D95B7947C8B75C44589837 /* ContextMenuPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContextMenuPresentationController.swift; path = ContextMenu/ContextMenuPresentationController.swift; sourceTree = "<group>"; };
-		4458DFE4EB0642A02F5AFCD928B409F7 /* ContextMenuDismissing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContextMenuDismissing.swift; path = ContextMenu/ContextMenuDismissing.swift; sourceTree = "<group>"; };
-		474D16CA3C348A373EFF57AD26B722F2 /* ContextMenu+Options.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ContextMenu+Options.swift"; path = "ContextMenu/ContextMenu+Options.swift"; sourceTree = "<group>"; };
-		4AA4306EDD56FD63FFE70487653C25C7 /* ContextMenu.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ContextMenu.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5A5ED5343F3693436571E370FA1D9B25 /* ContextMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ContextMenu.xcconfig; sourceTree = "<group>"; };
+		51F664DAF164C2E3AE93FE182F8CC26B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B81C04F8E84EAE60AE15C8695031A5F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		62168363D7BF0CE18A35DC197FA28EE2 /* ContextMenu+MenuStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ContextMenu+MenuStyle.swift"; path = "ContextMenu/ContextMenu+MenuStyle.swift"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6F09346CD57031C9F4615B373489CCB0 /* ContextMenu+ContainerStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ContextMenu+ContainerStyle.swift"; path = "ContextMenu/ContextMenu+ContainerStyle.swift"; sourceTree = "<group>"; };
-		71DDD555C4F32B86F69F2CCE692E87C1 /* ContextMenu+Item.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ContextMenu+Item.swift"; path = "ContextMenu/ContextMenu+Item.swift"; sourceTree = "<group>"; };
-		7F35176CEE9BAAD80281A0DF595B0D25 /* ContextMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ContextMenu-dummy.m"; sourceTree = "<group>"; };
+		6795B06F2AD013A2429B82746F52BE00 /* ContextMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ContextMenu.modulemap; sourceTree = "<group>"; };
+		67B629876410BD4AFE53A6624B62F35F /* ContextMenu+Options.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ContextMenu+Options.swift"; path = "ContextMenu/ContextMenu+Options.swift"; sourceTree = "<group>"; };
+		6DD3DF68FA265165A9C960C87FA9B555 /* ContextMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ContextMenu-umbrella.h"; sourceTree = "<group>"; };
+		7DB3263FFBBDB53AAAD64847C8A05AD5 /* ContextMenu+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ContextMenu+Animations.swift"; path = "ContextMenu/ContextMenu+Animations.swift"; sourceTree = "<group>"; };
+		80691B6A70DF37D3B71B5BE2CBD7887B /* ContextMenuDismissing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContextMenuDismissing.swift; path = ContextMenu/ContextMenuDismissing.swift; sourceTree = "<group>"; };
+		857A884CBACB5A263D36125D985A6C4A /* ContextMenu+UIViewControllerTransitioningDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ContextMenu+UIViewControllerTransitioningDelegate.swift"; path = "ContextMenu/ContextMenu+UIViewControllerTransitioningDelegate.swift"; sourceTree = "<group>"; };
+		87D2FD21EA79679A168A5A8C6C819F8D /* ContextMenu+Item.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ContextMenu+Item.swift"; path = "ContextMenu/ContextMenu+Item.swift"; sourceTree = "<group>"; };
 		8CA4BC8B1FC7FBDA052E28D7230EEC13 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example.framework; path = "Pods-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4C37E5160ADE6D8A8F853EA04A37F16 /* CGRect+Area.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGRect+Area.swift"; path = "ContextMenu/CGRect+Area.swift"; sourceTree = "<group>"; };
 		A79AC23D5A157FED70D9C53D844B2319 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		A99C513A5107C353567935F9D81AA652 /* ContextMenu+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ContextMenu+Animations.swift"; path = "ContextMenu/ContextMenu+Animations.swift"; sourceTree = "<group>"; };
-		BA36393F87FB036B5B9B0106BEC81095 /* ContextMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ContextMenu-prefix.pch"; sourceTree = "<group>"; };
-		C3EAB79C04F9B0D923F8793CFDA2DD07 /* ContextMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ContextMenu-umbrella.h"; sourceTree = "<group>"; };
+		B1B000328F90D8A5D58AF2823DE7572A /* ContextMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ContextMenu-dummy.m"; sourceTree = "<group>"; };
+		B3DEBB6D813BE0BF85C08B55C9A26FA7 /* ContextMenu.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ContextMenu.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B61C48FECAA4B036403FFB37558F775D /* ContextMenuPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContextMenuPresentationController.swift; path = ContextMenu/ContextMenuPresentationController.swift; sourceTree = "<group>"; };
+		B9EACC934B425B94E0AC66C11F914C5B /* ContextMenu+MenuStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ContextMenu+MenuStyle.swift"; path = "ContextMenu/ContextMenu+MenuStyle.swift"; sourceTree = "<group>"; };
+		BE6001925052E73D97C96A90A46182A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BEBD79F00086360DD53480C2D3806E79 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C38465B7FAD1178F371BB945E9F0CABD /* ContextMenu+ContextMenuPresentationControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ContextMenu+ContextMenuPresentationControllerDelegate.swift"; path = "ContextMenu/ContextMenu+ContextMenuPresentationControllerDelegate.swift"; sourceTree = "<group>"; };
+		C5B25A99DEC14DE8ED73B2253DA28C61 /* SourceViewCorner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourceViewCorner.swift; path = ContextMenu/SourceViewCorner.swift; sourceTree = "<group>"; };
+		C6C9E30931E91AAE1145FC7B7CFF5698 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Extensions.swift"; path = "ContextMenu/UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		C7384709B9EFCE2A4C4DA7AD397D8C92 /* ContextMenuPresenting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContextMenuPresenting.swift; path = ContextMenu/ContextMenuPresenting.swift; sourceTree = "<group>"; };
 		C9792695121A60254E7D649C440E8697 /* ContextMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ContextMenu.framework; path = ContextMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D177D476D63313B2ADC339EC0713F6D5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		D1B6FD6EAA05656387548B6C68F1CB27 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E7A3903BCCBC56DE7698C23F1B9D7025 /* ClippedContainerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClippedContainerViewController.swift; path = ContextMenu/ClippedContainerViewController.swift; sourceTree = "<group>"; };
-		E9E5199A0158EA7B553B582999281E75 /* CGRect+Area.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGRect+Area.swift"; path = "ContextMenu/CGRect+Area.swift"; sourceTree = "<group>"; };
-		EE1CBCB45C857CA71181AC45E10D9857 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CDDD0FF66B18CA43F3B6D561A5940E28 /* ClippedContainerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClippedContainerViewController.swift; path = ContextMenu/ClippedContainerViewController.swift; sourceTree = "<group>"; };
+		E740D7A9F7277862B645221D4138C3C3 /* ContextMenuDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContextMenuDelegate.swift; path = ContextMenu/ContextMenuDelegate.swift; sourceTree = "<group>"; };
 		EFC5B2E05B58CD826FD55659BF1D7E39 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F3AC6FE060B4AE166C90F65E0E2BD194 /* ContextMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ContextMenu.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		11A115FAF4DA547D1E09F39B8EBE85F1 /* Frameworks */ = {
+		79521CC87D71A13DEC31294CFEFD6329 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B249B66E738181ADC06D5F535E15ACB4 /* Foundation.framework in Frameworks */,
+				E80E6DDC9FE58EC3B7EC11100268EA08 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +103,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0580ACC4C122152002FF1B8CF0368921 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8794F8B0DC587EEED3B13E72472956CC /* ContextMenu */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		1B5ECB992A56AE0C70DC72D88BB90B05 /* Pods-Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,28 +129,6 @@
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
-		20940AA8C4D3863E207848977EBEF11C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F3AC6FE060B4AE166C90F65E0E2BD194 /* ContextMenu.modulemap */,
-				5A5ED5343F3693436571E370FA1D9B25 /* ContextMenu.xcconfig */,
-				7F35176CEE9BAAD80281A0DF595B0D25 /* ContextMenu-dummy.m */,
-				BA36393F87FB036B5B9B0106BEC81095 /* ContextMenu-prefix.pch */,
-				C3EAB79C04F9B0D923F8793CFDA2DD07 /* ContextMenu-umbrella.h */,
-				D1B6FD6EAA05656387548B6C68F1CB27 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ContextMenu";
-			sourceTree = "<group>";
-		};
-		3F0A5F1EF3DA411863AE72B94A1D0EA6 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B3C1B7C3B8F55E46C293A5ACA2938450 /* ContextMenu */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		6A4F6A14E3FB951290E4531728B7A461 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,32 +141,34 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				3F0A5F1EF3DA411863AE72B94A1D0EA6 /* Development Pods */,
+				0580ACC4C122152002FF1B8CF0368921 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				C65033CE272052BFBDCB15610D69AE2B /* Products */,
 				6A4F6A14E3FB951290E4531728B7A461 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		B3C1B7C3B8F55E46C293A5ACA2938450 /* ContextMenu */ = {
+		8794F8B0DC587EEED3B13E72472956CC /* ContextMenu */ = {
 			isa = PBXGroup;
 			children = (
-				E9E5199A0158EA7B553B582999281E75 /* CGRect+Area.swift */,
-				E7A3903BCCBC56DE7698C23F1B9D7025 /* ClippedContainerViewController.swift */,
-				083F96FBD20FBEB55E326904926AB872 /* ContextMenu.swift */,
-				A99C513A5107C353567935F9D81AA652 /* ContextMenu+Animations.swift */,
-				6F09346CD57031C9F4615B373489CCB0 /* ContextMenu+ContainerStyle.swift */,
-				2E9625EE0940E5B6D28DE87B9A9AA394 /* ContextMenu+ContextMenuPresentationControllerDelegate.swift */,
-				71DDD555C4F32B86F69F2CCE692E87C1 /* ContextMenu+Item.swift */,
-				62168363D7BF0CE18A35DC197FA28EE2 /* ContextMenu+MenuStyle.swift */,
-				474D16CA3C348A373EFF57AD26B722F2 /* ContextMenu+Options.swift */,
-				15DBAFC09AB1344CE2E45DEE323F5406 /* ContextMenu+UIViewControllerTransitioningDelegate.swift */,
-				4458DFE4EB0642A02F5AFCD928B409F7 /* ContextMenuDismissing.swift */,
-				4372D257F4D95B7947C8B75C44589837 /* ContextMenuPresentationController.swift */,
-				248C9B4FF0D3F81A06280C402C567D88 /* ContextMenuPresenting.swift */,
-				333B6A8DDD5E59721593B55968D63FAB /* SourceViewCorner.swift */,
-				DE363DB3821939CF89BB2CC8B8B39B2B /* Pod */,
-				20940AA8C4D3863E207848977EBEF11C /* Support Files */,
+				A4C37E5160ADE6D8A8F853EA04A37F16 /* CGRect+Area.swift */,
+				CDDD0FF66B18CA43F3B6D561A5940E28 /* ClippedContainerViewController.swift */,
+				1DEB16962167FB991B230C703581DEB6 /* ContextMenu.swift */,
+				7DB3263FFBBDB53AAAD64847C8A05AD5 /* ContextMenu+Animations.swift */,
+				13CC10DCC8B20BE7FA1E83DF91AC1128 /* ContextMenu+ContainerStyle.swift */,
+				C38465B7FAD1178F371BB945E9F0CABD /* ContextMenu+ContextMenuPresentationControllerDelegate.swift */,
+				87D2FD21EA79679A168A5A8C6C819F8D /* ContextMenu+Item.swift */,
+				B9EACC934B425B94E0AC66C11F914C5B /* ContextMenu+MenuStyle.swift */,
+				67B629876410BD4AFE53A6624B62F35F /* ContextMenu+Options.swift */,
+				857A884CBACB5A263D36125D985A6C4A /* ContextMenu+UIViewControllerTransitioningDelegate.swift */,
+				E740D7A9F7277862B645221D4138C3C3 /* ContextMenuDelegate.swift */,
+				80691B6A70DF37D3B71B5BE2CBD7887B /* ContextMenuDismissing.swift */,
+				B61C48FECAA4B036403FFB37558F775D /* ContextMenuPresentationController.swift */,
+				C7384709B9EFCE2A4C4DA7AD397D8C92 /* ContextMenuPresenting.swift */,
+				C5B25A99DEC14DE8ED73B2253DA28C61 /* SourceViewCorner.swift */,
+				C6C9E30931E91AAE1145FC7B7CFF5698 /* UIViewController+Extensions.swift */,
+				C3B321D0DFE0341E590AA911826E73DB /* Pod */,
+				E3A5658B6566DE9707FF8C366C6CBCAA /* Support Files */,
 			);
 			name = ContextMenu;
 			path = ../..;
@@ -188,6 +180,16 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3B321D0DFE0341E590AA911826E73DB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B3DEBB6D813BE0BF85C08B55C9A26FA7 /* ContextMenu.podspec */,
+				BEBD79F00086360DD53480C2D3806E79 /* LICENSE */,
+				BE6001925052E73D97C96A90A46182A6 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		C65033CE272052BFBDCB15610D69AE2B /* Products */ = {
@@ -207,14 +209,18 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		DE363DB3821939CF89BB2CC8B8B39B2B /* Pod */ = {
+		E3A5658B6566DE9707FF8C366C6CBCAA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4AA4306EDD56FD63FFE70487653C25C7 /* ContextMenu.podspec */,
-				EE1CBCB45C857CA71181AC45E10D9857 /* LICENSE */,
-				D177D476D63313B2ADC339EC0713F6D5 /* README.md */,
+				6795B06F2AD013A2429B82746F52BE00 /* ContextMenu.modulemap */,
+				14925AF7A0EBA4F460F20E4A272FD5C2 /* ContextMenu.xcconfig */,
+				B1B000328F90D8A5D58AF2823DE7572A /* ContextMenu-dummy.m */,
+				35ADB0AAAFD77E7FAB3E79DAFD7738CE /* ContextMenu-prefix.pch */,
+				6DD3DF68FA265165A9C960C87FA9B555 /* ContextMenu-umbrella.h */,
+				51F664DAF164C2E3AE93FE182F8CC26B /* Info.plist */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ContextMenu";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,11 +234,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF762F200BA5827FC8DC4B06A78DC0F9 /* Headers */ = {
+		F56AFF13660BC34583736A3A88E204DA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C688343B3B6107C07545D1AB5A931DF3 /* ContextMenu-umbrella.h in Headers */,
+				035CEF32DA4C5D1DCA33C614CEB17913 /* ContextMenu-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +263,13 @@
 			productReference = 8CA4BC8B1FC7FBDA052E28D7230EEC13 /* Pods_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		94E34967574FD8A9203CFB4086EA7849 /* ContextMenu */ = {
+		C55C8E1E0367C61543FC7906E3E7159F /* ContextMenu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 11FA8D253AF9022C08CF03380C0FABE1 /* Build configuration list for PBXNativeTarget "ContextMenu" */;
+			buildConfigurationList = A502D45AB4BE663E42A273A54BDA227D /* Build configuration list for PBXNativeTarget "ContextMenu" */;
 			buildPhases = (
-				25FAA96C2EC5D6480E5D9FFD213E689E /* Sources */,
-				11A115FAF4DA547D1E09F39B8EBE85F1 /* Frameworks */,
-				AF762F200BA5827FC8DC4B06A78DC0F9 /* Headers */,
+				99E97415B516C809544EDF048D102187 /* Sources */,
+				79521CC87D71A13DEC31294CFEFD6329 /* Frameworks */,
+				F56AFF13660BC34583736A3A88E204DA /* Headers */,
 			);
 			buildRules = (
 			);
@@ -295,40 +301,42 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				94E34967574FD8A9203CFB4086EA7849 /* ContextMenu */,
+				C55C8E1E0367C61543FC7906E3E7159F /* ContextMenu */,
 				4FFAA6E4EBC948A31BAEED42653BB8D7 /* Pods-Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		25FAA96C2EC5D6480E5D9FFD213E689E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EBC0F04EB8E02903FAF43834427C054B /* CGRect+Area.swift in Sources */,
-				3363E5B3A2FD80DD2F523DEA110AD23D /* ClippedContainerViewController.swift in Sources */,
-				A912935A70F53FE5706F816CA00A1B87 /* ContextMenu+Animations.swift in Sources */,
-				53B0CE3D9CAB2490DB94E726AA469C4B /* ContextMenu+ContainerStyle.swift in Sources */,
-				31B67E27C8932833B5F23A70D2A1A18F /* ContextMenu+ContextMenuPresentationControllerDelegate.swift in Sources */,
-				6044456AABCB0211A94A96C4E7C41CF4 /* ContextMenu+Item.swift in Sources */,
-				E119E1F08583FB65F0EEA26D35A963A2 /* ContextMenu+MenuStyle.swift in Sources */,
-				75A781BF4CB0EDE380DD15E4D504B69D /* ContextMenu+Options.swift in Sources */,
-				6B13209979CF19E1E726F7059AE91A89 /* ContextMenu+UIViewControllerTransitioningDelegate.swift in Sources */,
-				8BA5F415846C5CDFB898F992F514425D /* ContextMenu-dummy.m in Sources */,
-				EBDF697639505492990E5BBA82E23F14 /* ContextMenu.swift in Sources */,
-				5789B58F3338651E84452B085E2CC7AA /* ContextMenuDismissing.swift in Sources */,
-				511F9D7A1F1A172CA89DD401A12E442E /* ContextMenuPresentationController.swift in Sources */,
-				29004463EA77E281BC76D155ADB9020F /* ContextMenuPresenting.swift in Sources */,
-				B495981AA0156AED9F5AFF5427AC4B99 /* SourceViewCorner.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		84E87A2BE9D1D93F66EBFD49006C04D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				40F454BB711499A3B137B3CD6180DCD4 /* Pods-Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99E97415B516C809544EDF048D102187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457F0B73107CD96C71CAE03029AA8BDC /* CGRect+Area.swift in Sources */,
+				CCEA546C378D7EBCE8DC42F49AC65F01 /* ClippedContainerViewController.swift in Sources */,
+				F4DC47169A4414AEA6C20C8957416137 /* ContextMenu+Animations.swift in Sources */,
+				F2C6E55A1C6351BFF3B0CA6567DBF022 /* ContextMenu+ContainerStyle.swift in Sources */,
+				5D1AF63F82B9CC3377710DC84424F6C5 /* ContextMenu+ContextMenuPresentationControllerDelegate.swift in Sources */,
+				EC1E21465F6207B9A7B30612B2B2B01B /* ContextMenu+Item.swift in Sources */,
+				03C7D3FAC04C2CC8CFC5D8B8B5662F99 /* ContextMenu+MenuStyle.swift in Sources */,
+				D307CADFFC08A750DF71A1A103EE73CD /* ContextMenu+Options.swift in Sources */,
+				FF75C687ABC833C17BE2CB3DF8B08820 /* ContextMenu+UIViewControllerTransitioningDelegate.swift in Sources */,
+				34611D820062FF0D2537BA5BB77FC49F /* ContextMenu-dummy.m in Sources */,
+				34DE824BF8077EF1C9325550AC2F1367 /* ContextMenu.swift in Sources */,
+				770FCA2E81351AFFDBBB678E9676AE06 /* ContextMenuDelegate.swift in Sources */,
+				20D5042ECFA20AA664AAE1E20D77806E /* ContextMenuDismissing.swift in Sources */,
+				67051657982C7F45AA72807C10028E40 /* ContextMenuPresentationController.swift in Sources */,
+				2E74EA4FD27725BA605672D98EF5775A /* ContextMenuPresenting.swift in Sources */,
+				3293BFE2E95182659C0545055872E33A /* SourceViewCorner.swift in Sources */,
+				C0026F3B533B8B9D029136A90B8FF394 /* UIViewController+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +346,7 @@
 		B0033F7548FA4B72E658467AF36BE6F9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ContextMenu;
-			target = 94E34967574FD8A9203CFB4086EA7849 /* ContextMenu */;
+			target = C55C8E1E0367C61543FC7906E3E7159F /* ContextMenu */;
 			targetProxy = 1BF88884B950C5385334221468581CB7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -442,9 +450,9 @@
 			};
 			name = Debug;
 		};
-		8042280493369F6D934721FDD6DBF7D4 /* Release */ = {
+		C5E79A630E68B9AF674783B98910A511 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A5ED5343F3693436571E370FA1D9B25 /* ContextMenu.xcconfig */;
+			baseConfigurationReference = 14925AF7A0EBA4F460F20E4A272FD5C2 /* ContextMenu.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -466,14 +474,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		C72736E31C25E34B154DFAA69EFB6E7F /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -568,9 +575,9 @@
 			};
 			name = Release;
 		};
-		D70C72D4BCD06ED83B9D9D35B9EC3B52 /* Debug */ = {
+		EE8C5E992045DE682EB6C22D3B679DAE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A5ED5343F3693436571E370FA1D9B25 /* ContextMenu.xcconfig */;
+			baseConfigurationReference = 14925AF7A0EBA4F460F20E4A272FD5C2 /* ContextMenu.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -592,31 +599,32 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		11FA8D253AF9022C08CF03380C0FABE1 /* Build configuration list for PBXNativeTarget "ContextMenu" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D70C72D4BCD06ED83B9D9D35B9EC3B52 /* Debug */,
-				8042280493369F6D934721FDD6DBF7D4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				323A24856F1A4871A780301AF5C02A2A /* Debug */,
 				CA33F186435244FD0FD5B7325332656C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A502D45AB4BE663E42A273A54BDA227D /* Build configuration list for PBXNativeTarget "ContextMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5E79A630E68B9AF674783B98910A511 /* Debug */,
+				EE8C5E992045DE682EB6C22D3B679DAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

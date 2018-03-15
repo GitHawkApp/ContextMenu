@@ -22,6 +22,7 @@
 		2971CE96205453D900342296 /* SourceViewCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2971CE88205453D900342296 /* SourceViewCorner.swift */; };
 		2971CE97205453D900342296 /* ContextMenuPresenting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2971CE89205453D900342296 /* ContextMenuPresenting.swift */; };
 		2971CE98205453D900342296 /* CGRect+Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2971CE8A205453D900342296 /* CGRect+Area.swift */; };
+		298D3AEE205B398500EDFB66 /* ContextMenuDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298D3AED205B398500EDFB66 /* ContextMenuDelegate.swift */; };
 		DE5D838B2055D72A0069A81D /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5D838A2055D72A0069A81D /* UIViewController+Extensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		2971CE88205453D900342296 /* SourceViewCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceViewCorner.swift; sourceTree = "<group>"; };
 		2971CE89205453D900342296 /* ContextMenuPresenting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContextMenuPresenting.swift; sourceTree = "<group>"; };
 		2971CE8A205453D900342296 /* CGRect+Area.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Area.swift"; sourceTree = "<group>"; };
+		298D3AED205B398500EDFB66 /* ContextMenuDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuDelegate.swift; sourceTree = "<group>"; };
 		DE5D838A2055D72A0069A81D /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +89,7 @@
 				2971CE86205453D900342296 /* ContextMenu+MenuStyle.swift */,
 				2971CE7E205453D800342296 /* ContextMenu+Options.swift */,
 				2971CE7F205453D800342296 /* ContextMenu+UIViewControllerTransitioningDelegate.swift */,
+				298D3AED205B398500EDFB66 /* ContextMenuDelegate.swift */,
 				2971CE82205453D900342296 /* ContextMenuDismissing.swift */,
 				2971CE7D205453D800342296 /* ContextMenuPresentationController.swift */,
 				2971CE89205453D900342296 /* ContextMenuPresenting.swift */,
@@ -186,6 +189,7 @@
 				2971CE8E205453D900342296 /* ContextMenu+ContainerStyle.swift in Sources */,
 				DE5D838B2055D72A0069A81D /* UIViewController+Extensions.swift in Sources */,
 				2971CE95205453D900342296 /* ClippedContainerViewController.swift in Sources */,
+				298D3AEE205B398500EDFB66 /* ContextMenuDelegate.swift in Sources */,
 				2971CE96205453D900342296 /* SourceViewCorner.swift in Sources */,
 				2971CE8F205453D900342296 /* ContextMenu+Item.swift in Sources */,
 				2971CE8B205453D900342296 /* ContextMenuPresentationController.swift in Sources */,

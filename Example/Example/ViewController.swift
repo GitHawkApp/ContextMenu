@@ -9,7 +9,7 @@
 import UIKit
 import ContextMenu
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, ContextMenuDelegate {
 
     @IBOutlet weak var button: UIButton!
     
@@ -28,8 +28,19 @@ class ViewController: UIViewController {
             sourceViewController: self,
             viewController: MenuViewController(),
             options: ContextMenu.Options(containerStyle: ContextMenu.ContainerStyle(backgroundColor: UIColor(red: 41/255.0, green: 45/255.0, blue: 53/255.0, alpha: 1)), menuStyle: .minimal),
-            sourceView: button
+            sourceView: button,
+            delegate: self
         )
+    }
+
+    //MARK: ContextMenuDelegate
+
+    func contextMenuWillDismiss(viewController: UIViewController, animated: Bool) {
+        print("will dismiss")
+    }
+
+    func contextMenuDidDismiss(viewController: UIViewController, animated: Bool) {
+        print("did dismiss")
     }
 
 }
