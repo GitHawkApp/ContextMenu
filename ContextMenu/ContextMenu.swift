@@ -29,7 +29,8 @@ public class ContextMenu: NSObject {
         sourceViewController: UIViewController,
         viewController: UIViewController,
         options: Options = Options(),
-        sourceView: UIView? = nil
+        sourceView: UIView? = nil,
+        delegate: ContextMenuDelegate? = nil
         ) {
         if let previous = self.item {
             previous.viewController.dismiss(animated: false)
@@ -42,7 +43,8 @@ public class ContextMenu: NSObject {
         let item = Item(
             viewController: viewController,
             options: options,
-            sourceView: sourceView
+            sourceView: sourceView,
+            delegate: delegate
         )
         self.item = item
 

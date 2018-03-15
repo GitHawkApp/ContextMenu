@@ -10,10 +10,13 @@ import UIKit
 
 class ClippedContainerViewController: UIViewController {
 
+    let viewController: UIViewController
+
     private let options: ContextMenu.Options
     private let containedViewController: UINavigationController
 
     init(options: ContextMenu.Options, viewController: UIViewController) {
+        self.viewController = viewController
         self.options = options
         self.containedViewController = UINavigationController(rootViewController: viewController)
         super.init(nibName: nil, bundle: nil)
