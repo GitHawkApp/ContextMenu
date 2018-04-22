@@ -1,4 +1,4 @@
 language: swift
-xcode_project: ContextMenu.xcodeproj
-xcode_scheme: ContextMenu
 osx_image: xcode9.3
+script:
+  - xcodebuild clean -project ContextMenu.xcodeproj -scheme ContextMenu -destination "platform=iOS Simulator,name=iPhone X,OS=11.3" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO -quiet
