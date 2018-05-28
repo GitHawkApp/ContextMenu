@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension CGRect {
+internal extension CGRect {
 
     func rect(point: CGPoint, xRemainder: Bool, yRemainder: Bool) -> CGRect {
         let xDiv = divided(atDistance: point.x, from: .minXEdge)
