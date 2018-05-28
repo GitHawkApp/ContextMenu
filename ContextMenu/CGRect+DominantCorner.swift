@@ -8,7 +8,7 @@
 
 import UIKit
 
-internal extension CGRect {
+extension CGRect {
 
     func dominantCorner(in rect: CGRect) -> SourceViewCorner? {
         let corners: [SourceViewCorner] = [

@@ -17,6 +17,7 @@ public class ContextMenu: NSObject {
     var item: Item?
     let haptics = UIImpactFeedbackGenerator(style: .medium)
 
+    private override init() {}
 
     /// Show a context menu from a view controller with given options.
     ///
