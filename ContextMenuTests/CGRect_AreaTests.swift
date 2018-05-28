@@ -19,5 +19,12 @@ class CGRect_AreaTests: XCTestCase {
         XCTAssertEqual(rect.area(corner: SourceViewCorner(point: CGPoint(x: 90, y: 90), position: .bottomRight)), 100)
         XCTAssertEqual(rect.area(corner: SourceViewCorner(point: CGPoint(x: 10, y: 90), position: .bottomLeft)), 100)
     }
+
+    func test_whenCornersHaveNoPadding() {
+        XCTAssertEqual(rect.area(corner: SourceViewCorner(point: CGPoint(x: 0, y: 0), position: .topLeft)), 0)
+        XCTAssertEqual(rect.area(corner: SourceViewCorner(point: CGPoint(x: 100, y: 0), position: .topRight)), 0)
+        XCTAssertEqual(rect.area(corner: SourceViewCorner(point: CGPoint(x: 100, y: 100), position: .bottomRight)), 0)
+        XCTAssertEqual(rect.area(corner: SourceViewCorner(point: CGPoint(x: 00, y: 100), position: .bottomLeft)), 0)
+    }
     
 }
