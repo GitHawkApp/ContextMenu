@@ -25,6 +25,8 @@
 		298D3AEE205B398500EDFB66 /* ContextMenuDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298D3AED205B398500EDFB66 /* ContextMenuDelegate.swift */; };
 		2991418720BC757100B63A3B /* CGRect_AreaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2991418620BC757100B63A3B /* CGRect_AreaTests.swift */; };
 		2991418920BC757100B63A3B /* ContextMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2971CE722054539900342296 /* ContextMenu.framework */; };
+		2991419020BC77FA00B63A3B /* CGRect+DominantCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2991418F20BC77FA00B63A3B /* CGRect+DominantCorner.swift */; };
+		2991419220BC789D00B63A3B /* CGRect_DominantCornerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2991419120BC789D00B63A3B /* CGRect_DominantCornerTests.swift */; };
 		DE5D838B2055D72A0069A81D /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5D838A2055D72A0069A81D /* UIViewController+Extensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +62,8 @@
 		2991418420BC757000B63A3B /* ContextMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContextMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2991418620BC757100B63A3B /* CGRect_AreaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRect_AreaTests.swift; sourceTree = "<group>"; };
 		2991418820BC757100B63A3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2991418F20BC77FA00B63A3B /* CGRect+DominantCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+DominantCorner.swift"; sourceTree = "<group>"; };
+		2991419120BC789D00B63A3B /* CGRect_DominantCornerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRect_DominantCornerTests.swift; sourceTree = "<group>"; };
 		DE5D838A2055D72A0069A81D /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				2971CE8A205453D900342296 /* CGRect+Area.swift */,
+				2991418F20BC77FA00B63A3B /* CGRect+DominantCorner.swift */,
 				2971CE87205453D900342296 /* ClippedContainerViewController.swift */,
 				2971CE752054539900342296 /* ContextMenu.h */,
 				2971CE84205453D900342296 /* ContextMenu.swift */,
@@ -129,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				2991418620BC757100B63A3B /* CGRect_AreaTests.swift */,
+				2991419120BC789D00B63A3B /* CGRect_DominantCornerTests.swift */,
 				2991418820BC757100B63A3B /* Info.plist */,
 			);
 			path = ContextMenuTests;
@@ -259,6 +265,7 @@
 				2971CE8F205453D900342296 /* ContextMenu+Item.swift in Sources */,
 				2971CE8B205453D900342296 /* ContextMenuPresentationController.swift in Sources */,
 				2971CE8C205453D900342296 /* ContextMenu+Options.swift in Sources */,
+				2991419020BC77FA00B63A3B /* CGRect+DominantCorner.swift in Sources */,
 				2971CE92205453D900342296 /* ContextMenu.swift in Sources */,
 				2971CE8D205453D900342296 /* ContextMenu+UIViewControllerTransitioningDelegate.swift in Sources */,
 			);
@@ -268,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2991419220BC789D00B63A3B /* CGRect_DominantCornerTests.swift in Sources */,
 				2991418720BC757100B63A3B /* CGRect_AreaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
