@@ -29,4 +29,8 @@ class CGRect_DominantCornerTests: XCTestCase {
         XCTAssertEqual(rect.dominantCorner(in: CGRect(x: 9, y: 9, width: 80, height: 80))?.position, .bottomRight)
     }
 
+    func test_whenCornersEqual_thatReturnsNil() {
+        XCTAssertNil(rect.dominantCorner(in: rect))
+    }
+
 }
