@@ -13,6 +13,7 @@
 		2971CEAD205454BD00342296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2971CEAC205454BD00342296 /* Assets.xcassets */; };
 		2971CEB0205454BD00342296 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2971CEAE205454BD00342296 /* LaunchScreen.storyboard */; };
 		2971CEB82054553400342296 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2971CEB72054553400342296 /* MenuViewController.swift */; };
+		29DE277C211654E800556C44 /* KeyboardMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DE277B211654E800556C44 /* KeyboardMenuViewController.swift */; };
 		5D9BB1BB05FE1C79E1E43B74 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67EA137013E06182CC4BE858 /* Pods_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		2971CEAF205454BD00342296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2971CEB1205454BD00342296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2971CEB72054553400342296 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		29DE277B211654E800556C44 /* KeyboardMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardMenuViewController.swift; sourceTree = "<group>"; };
 		445EDEAD1EC427ACF9B0E27F /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		67EA137013E06182CC4BE858 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8435E3320DB10C18B762D4A /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				2971CEA5205454BD00342296 /* AppDelegate.swift */,
 				2971CEAC205454BD00342296 /* Assets.xcassets */,
 				2971CEB1205454BD00342296 /* Info.plist */,
+				29DE277B211654E800556C44 /* KeyboardMenuViewController.swift */,
 				2971CEAE205454BD00342296 /* LaunchScreen.storyboard */,
 				2971CEA9205454BD00342296 /* Main.storyboard */,
 				2971CEB72054553400342296 /* MenuViewController.swift */,
@@ -220,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29DE277C211654E800556C44 /* KeyboardMenuViewController.swift in Sources */,
 				2971CEA8205454BD00342296 /* ViewController.swift in Sources */,
 				2971CEB82054553400342296 /* MenuViewController.swift in Sources */,
 				2971CEA6205454BD00342296 /* AppDelegate.swift in Sources */,

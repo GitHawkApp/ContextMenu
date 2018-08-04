@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="e4f-v2-AZw">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="e4f-v2-AZw">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -29,25 +29,38 @@
         <!--View Controller-->
         <scene sceneID="rxc-Qs-SX5">
             <objects>
-                <viewController id="EDa-Kx-2Bx" customClass="ViewController" customModule="ThingsUI" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="EDa-Kx-2Bx" customClass="ViewController" customModule="Example" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XV0-SI-Dlz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bMp-Tt-bsj">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bMp-Tt-bsj">
                                 <rect key="frame" x="176" y="322" width="22" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="onButton:" destination="EDa-Kx-2Bx" eventType="touchUpInside" id="1kc-D5-Xxx"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7wb-6n-2xQ">
+                                <rect key="frame" x="154" y="266" width="66" height="30"/>
+                                <state key="normal" title="Keyboard"/>
+                                <connections>
+                                    <action selector="onKeyboardButton:" destination="EDa-Kx-2Bx" eventType="touchUpInside" id="cq5-s1-ege"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bMp-Tt-bsj" firstAttribute="top" secondItem="7wb-6n-2xQ" secondAttribute="bottom" constant="26" id="KiU-xP-eNi"/>
+                            <constraint firstItem="bMp-Tt-bsj" firstAttribute="centerY" secondItem="XV0-SI-Dlz" secondAttribute="centerY" id="iz2-Cf-TYK"/>
+                            <constraint firstItem="7wb-6n-2xQ" firstAttribute="centerX" secondItem="XV0-SI-Dlz" secondAttribute="centerX" id="vZG-CE-9Aq"/>
+                            <constraint firstItem="bMp-Tt-bsj" firstAttribute="centerX" secondItem="XV0-SI-Dlz" secondAttribute="centerX" id="zsN-8S-KnR"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="0wB-Wa-A20"/>
                     </view>
                     <navigationItem key="navigationItem" id="FIU-fZ-kBQ"/>
                     <connections>
                         <outlet property="button" destination="bMp-Tt-bsj" id="MPB-L4-weP"/>
+                        <outlet property="keyboardButton" destination="7wb-6n-2xQ" id="EI3-VG-aa5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hcb-0m-21I" userLabel="First Responder" sceneMemberID="firstResponder"/>
