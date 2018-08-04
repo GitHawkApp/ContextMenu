@@ -16,10 +16,29 @@ class ContextMenuPresentationController: UIPresentationController {
 
     weak var contextDelegate: ContextMenuPresentationControllerDelegate?
     let item: ContextMenu.Item
+    var keyboardSpace: CGFloat = 0
 
     init(presentedViewController: UIViewController, presenting presentingViewController: UIViewController?, item: ContextMenu.Item) {
         self.item = item
         super.init(presentedViewController: presentedViewController, presenting: presentingViewController)
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(onKeyboard(notification:)),
+            name: .UIKeyboardWillShow,
+            object: nil
+        )
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(onKeyboard(notification:)),
+            name: .UIKeyboardWillHide,
+            object: nil
+        )
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(onKeyboard(notification:)),
+            name: .UIKeyboardWillChangeFrame,
+            object: nil
+        )
     }
 
     lazy var overlayView: UIView = {
@@ -73,7 +92,7 @@ class ContextMenuPresentationController: UIPresentationController {
         } else {
             return CGRect(
                 x: (containerBounds.width - size.width)/2,
-                y: (containerBounds.height - size.height)/2,
+                y: (containerBounds.height - keyboardSpace - size.height)/2,
                 width: size.width,
                 height: size.height
             )
@@ -153,6 +172,18 @@ class ContextMenuPresentationController: UIPresentationController {
         super.preferredContentSizeDidChange(forChildContentContainer: container)
         guard let containerView = self.containerView else { return }
         UIView.animate(withDuration: item.options.durations.resize) {
+            containerView.setNeedsLayout()
+            containerView.layoutIfNeeded()
+        }
+    }
+
+    @objc func onKeyboard(notification: Notification) {
+        guard let frame = notification.userInfo?[UIKeyboardFrameEndUserInfoKey] as? CGRect,
+            let duration = notification.userInfo?[UIKeyboardAnimationDurationUserInfoKey] as? TimeInterval,
+            let containerView = self.containerView
+            else { return }
+        keyboardSpace = containerView.bounds.height - frame.minY
+        UIView.animate(withDuration: duration) {
             containerView.setNeedsLayout()
             containerView.layoutIfNeeded()
         }
