@@ -34,23 +34,7 @@ class ContextMenuPresentationController: UIPresentationController {
             let frame = item.sourceView?.superview?.convert(sourceViewFrame, to: containerView)
             else { return nil}
 
-        let corners: [SourceViewCorner] = [
-            SourceViewCorner(point: CGPoint(x: frame.minX, y: frame.minY), position: .topLeft),
-            SourceViewCorner(point: CGPoint(x: frame.maxX, y: frame.minY), position: .topRight),
-            SourceViewCorner(point: CGPoint(x: frame.minX, y: frame.maxY), position: .bottomLeft),
-            SourceViewCorner(point: CGPoint(x: frame.maxX, y: frame.maxY), position: .bottomRight),
-            ]
-
-        var maxArea: CGFloat = 0
-        var maxCorner: SourceViewCorner? = nil
-        for corner in corners {
-            let area = containerView.bounds.area(corner: corner)
-            if area > maxArea {
-                maxArea = area
-                maxCorner = corner
-            }
-        }
-        return maxCorner
+        return containerView.bounds.dominantCorner(in: frame)
     }
 
     override var frameOfPresentedViewInContainerView: CGRect {
