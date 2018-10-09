@@ -24,19 +24,19 @@ class ContextMenuPresentationController: UIPresentationController {
         NotificationCenter.default.addObserver(
             self,
             selector: #selector(onKeyboard(notification:)),
-            name: .UIKeyboardWillShow,
+            name: UIResponder.keyboardWillShowNotification,
             object: nil
         )
         NotificationCenter.default.addObserver(
             self,
             selector: #selector(onKeyboard(notification:)),
-            name: .UIKeyboardWillHide,
+            name: UIResponder.keyboardWillHideNotification,
             object: nil
         )
         NotificationCenter.default.addObserver(
             self,
             selector: #selector(onKeyboard(notification:)),
-            name: .UIKeyboardWillChangeFrame,
+            name: UIResponder.keyboardWillChangeFrameNotification,
             object: nil
         )
     }
@@ -162,8 +162,8 @@ class ContextMenuPresentationController: UIPresentationController {
     }
 
     @objc func onKeyboard(notification: Notification) {
-        guard let frame = notification.userInfo?[UIKeyboardFrameEndUserInfoKey] as? CGRect,
-            let duration = notification.userInfo?[UIKeyboardAnimationDurationUserInfoKey] as? TimeInterval,
+        guard let frame = notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? CGRect,
+            let duration = notification.userInfo?[UIResponder.keyboardAnimationDurationUserInfoKey] as? TimeInterval,
             let containerView = self.containerView
             else { return }
         keyboardSpace = containerView.bounds.height - frame.minY

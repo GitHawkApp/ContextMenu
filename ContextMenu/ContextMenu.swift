@@ -37,7 +37,7 @@ public class ContextMenu: NSObject {
             previous.viewController.dismiss(animated: false)
         }
 
-        if #available(iOS 10, *), let style = options.hapticsStyle {
+        if let style = options.hapticsStyle {
             let haptics = UIImpactFeedbackGenerator(style: style)
             haptics.impactOccurred()
         }
