@@ -59,6 +59,7 @@ class ContextMenuPresentationController: UIPresentationController {
     override var frameOfPresentedViewInContainerView: CGRect {
         guard let containerBounds = containerView?.bounds else { return .zero }
         let size = presentedViewController.preferredContentSize
+        let frame: CGRect
         if let corner = preferredSourceViewCorner {
             let minPadding = item.options.containerStyle.edgePadding
             let x = corner.point.x
@@ -67,20 +68,21 @@ class ContextMenuPresentationController: UIPresentationController {
             let y = corner.point.y
                 + corner.position.ySizeModifier * size.height
                 + corner.position.yModifier * item.options.containerStyle.yPadding
-            return CGRect(
+            frame = CGRect(
                 x: max(minPadding, min(containerBounds.width - size.width - minPadding, x)),
                 y: max(minPadding, min(containerBounds.height - size.height - minPadding, y)),
                 width: size.width,
                 height: size.height
             )
         } else {
-            return CGRect(
+            frame = CGRect(
                 x: (containerBounds.width - size.width)/2,
                 y: (containerBounds.height - keyboardSpace - size.height)/2,
                 width: size.width,
                 height: size.height
             )
         }
+        return frame.integral
     }
 
     override func containerViewWillLayoutSubviews() {
