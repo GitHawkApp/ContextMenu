@@ -28,7 +28,13 @@ class ViewController: UIViewController, ContextMenuDelegate {
         ContextMenu.shared.show(
             sourceViewController: self,
             viewController: MenuViewController(),
-            options: ContextMenu.Options(containerStyle: ContextMenu.ContainerStyle(backgroundColor: UIColor(red: 41/255.0, green: 45/255.0, blue: 53/255.0, alpha: 1)), menuStyle: .default, hapticsStyle: .medium),
+            options: ContextMenu.Options(
+                containerStyle: ContextMenu.ContainerStyle(
+                    backgroundColor: UIColor(red: 41/255.0, green: 45/255.0, blue: 53/255.0, alpha: 1)
+                ),
+                menuStyle: .default,
+                hapticsStyle: .medium
+            ),
             sourceView: button,
             delegate: self
         )

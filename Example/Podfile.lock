@@ -1,5 +1,5 @@
 PODS:
-  - ContextMenu (0.3.1)
+  - ContextMenu (0.5.0)
 
 DEPENDENCIES:
   - ContextMenu (from `../ContextMenu.podspec`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../ContextMenu.podspec"
 
 SPEC CHECKSUMS:
-  ContextMenu: fa9049189ef9edee7742e75d9d5dd9501a002742
+  ContextMenu: 771a37612cd5cd10bf1dc0e3b9187df4d6f1e57a
 
 PODFILE CHECKSUM: aa060c7f3a10a9cb8b2633f1297c22bb65e4f54d
 
