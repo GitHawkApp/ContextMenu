@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2955D49F21B4555700A393D3 /* ContextMenu+Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2955D49E21B4555700A393D3 /* ContextMenu+Position.swift */; };
 		2971CE772054539900342296 /* ContextMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 2971CE752054539900342296 /* ContextMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2971CE8B205453D900342296 /* ContextMenuPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2971CE7D205453D800342296 /* ContextMenuPresentationController.swift */; };
 		2971CE8C205453D900342296 /* ContextMenu+Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2971CE7E205453D800342296 /* ContextMenu+Options.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2955D49E21B4555700A393D3 /* ContextMenu+Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContextMenu+Position.swift"; sourceTree = "<group>"; };
 		2971CE722054539900342296 /* ContextMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ContextMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2971CE752054539900342296 /* ContextMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContextMenu.h; sourceTree = "<group>"; };
 		2971CE762054539900342296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				2971CE81205453D900342296 /* ContextMenu+Item.swift */,
 				2971CE86205453D900342296 /* ContextMenu+MenuStyle.swift */,
 				2971CE7E205453D800342296 /* ContextMenu+Options.swift */,
+				2955D49E21B4555700A393D3 /* ContextMenu+Position.swift */,
 				2971CE7F205453D800342296 /* ContextMenu+UIViewControllerTransitioningDelegate.swift */,
 				298D3AED205B398500EDFB66 /* ContextMenuDelegate.swift */,
 				2971CE82205453D900342296 /* ContextMenuDismissing.swift */,
@@ -255,6 +258,7 @@
 				2971CE98205453D900342296 /* CGRect+Area.swift in Sources */,
 				2971CE93205453D900342296 /* ContextMenu+ContextMenuPresentationControllerDelegate.swift in Sources */,
 				2971CE91205453D900342296 /* ContextMenu+Animations.swift in Sources */,
+				2955D49F21B4555700A393D3 /* ContextMenu+Position.swift in Sources */,
 				2971CE97205453D900342296 /* ContextMenuPresenting.swift in Sources */,
 				2971CE90205453D900342296 /* ContextMenuDismissing.swift in Sources */,
 				2971CE94205453D900342296 /* ContextMenu+MenuStyle.swift in Sources */,
