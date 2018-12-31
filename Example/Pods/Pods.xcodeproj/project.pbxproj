@@ -17,6 +17,7 @@
 		7060FA503BF5C525BDDEC54B3624FD36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		848EF4ACA5B8B7D8FFA540DC60A31E87 /* ContextMenu+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FCCAD9A5DDED0894817AADA3B946EB /* ContextMenu+Animations.swift */; };
 		9D05DF181B4E73983C6E6503D920FC78 /* CGRect+DominantCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C804EDD1BF5E0FA33ECD43F5D909B1D /* CGRect+DominantCorner.swift */; };
+		9DF02B9321DA833E0005DA11 /* ContextMenuHapticFeedbackStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B9221DA833E0005DA11 /* ContextMenuHapticFeedbackStyle.swift */; };
 		9F8B60DDA902934C419C778DA8929724 /* SourceViewCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D7AD3A532B2787F9FC0E2FFDAD8A9 /* SourceViewCorner.swift */; };
 		A2940AC65B87B7ED50D677D71A1DFAF9 /* ClippedContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09FCB0B854C3436CD1EEFAC834A1C9E /* ClippedContainerViewController.swift */; };
 		A694D7FF377AFB4515DF3BF97325EA69 /* ContextMenu+MenuStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864BC7003A5AD292215518FE4B3E4B2F /* ContextMenu+MenuStyle.swift */; };
@@ -204,6 +205,7 @@
 				BDB805F685E263481822B76878B15FA6 /* ContextMenu+ContainerStyle.swift */,
 				3A1BE0B9FD51544A41F585796A1B08E5 /* ContextMenu+ContextMenuPresentationControllerDelegate.swift */,
 				EC57094A591155079A2634810C5AEAE8 /* ContextMenu+Item.swift */,
+				9DF02B9221DA833E0005DA11 /* ContextMenuHapticFeedbackStyle.swift */,
 				864BC7003A5AD292215518FE4B3E4B2F /* ContextMenu+MenuStyle.swift */,
 				8FB90342D11363510757DAC7606FC404 /* ContextMenu+Options.swift */,
 				78053D3FB7D8F6DA1273F10692CFE48A /* ContextMenu+Position.swift */,
@@ -340,6 +342,7 @@
 				D41A2C1CC2F357A2C3D2821C5E52A560 /* CGRect+Area.swift in Sources */,
 				9D05DF181B4E73983C6E6503D920FC78 /* CGRect+DominantCorner.swift in Sources */,
 				A2940AC65B87B7ED50D677D71A1DFAF9 /* ClippedContainerViewController.swift in Sources */,
+				9DF02B9321DA833E0005DA11 /* ContextMenuHapticFeedbackStyle.swift in Sources */,
 				848EF4ACA5B8B7D8FFA540DC60A31E87 /* ContextMenu+Animations.swift in Sources */,
 				D798C19ABE216FE3D0449393EBF49945 /* ContextMenu+ContainerStyle.swift in Sources */,
 				F8DED966A4E0F2FB3F99D5277715A361 /* ContextMenu+ContextMenuPresentationControllerDelegate.swift in Sources */,
