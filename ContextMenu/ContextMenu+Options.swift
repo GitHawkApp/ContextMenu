@@ -23,7 +23,7 @@ extension ContextMenu {
         let menuStyle: MenuStyle
 
         /// Trigger haptic feedback when the menu is shown.
-        let hapticsStyle: ContextMenuHapticFeedbackStyle?
+        let hapticsStyle: HapticFeedbackStyle?
 
         /// The position relative to the source view (if provided).
         let position: Position
@@ -32,7 +32,7 @@ extension ContextMenu {
             durations: AnimationDurations = AnimationDurations(),
             containerStyle: ContainerStyle = ContainerStyle(),
             menuStyle: MenuStyle = .default,
-            hapticsStyle: ContextMenuHapticFeedbackStyle? = nil,
+            hapticsStyle: HapticFeedbackStyle? = nil,
             position: Position = .default
             ) {
             self.durations = durations
