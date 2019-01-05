@@ -28,6 +28,7 @@
 		2991418920BC757100B63A3B /* ContextMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2971CE722054539900342296 /* ContextMenu.framework */; };
 		2991419020BC77FA00B63A3B /* CGRect+DominantCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2991418F20BC77FA00B63A3B /* CGRect+DominantCorner.swift */; };
 		2991419220BC789D00B63A3B /* CGRect_DominantCornerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2991419120BC789D00B63A3B /* CGRect_DominantCornerTests.swift */; };
+		9DAB381F21E10EB600567709 /* ContextMenu+HapticFeedbackStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB381E21E10EB600567709 /* ContextMenu+HapticFeedbackStyle.swift */; };
 		DE5D838B2055D72A0069A81D /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5D838A2055D72A0069A81D /* UIViewController+Extensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,7 @@
 		2991418820BC757100B63A3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2991418F20BC77FA00B63A3B /* CGRect+DominantCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+DominantCorner.swift"; sourceTree = "<group>"; };
 		2991419120BC789D00B63A3B /* CGRect_DominantCornerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRect_DominantCornerTests.swift; sourceTree = "<group>"; };
+		9DAB381E21E10EB600567709 /* ContextMenu+HapticFeedbackStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ContextMenu+HapticFeedbackStyle.swift"; sourceTree = "<group>"; };
 		DE5D838A2055D72A0069A81D /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,6 +119,7 @@
 				2971CE83205453D900342296 /* ContextMenu+Animations.swift */,
 				2971CE80205453D800342296 /* ContextMenu+ContainerStyle.swift */,
 				2971CE85205453D900342296 /* ContextMenu+ContextMenuPresentationControllerDelegate.swift */,
+				9DAB381E21E10EB600567709 /* ContextMenu+HapticFeedbackStyle.swift */,
 				2971CE81205453D900342296 /* ContextMenu+Item.swift */,
 				2971CE86205453D900342296 /* ContextMenu+MenuStyle.swift */,
 				2971CE7E205453D800342296 /* ContextMenu+Options.swift */,
@@ -262,6 +265,7 @@
 				2971CE97205453D900342296 /* ContextMenuPresenting.swift in Sources */,
 				2971CE90205453D900342296 /* ContextMenuDismissing.swift in Sources */,
 				2971CE94205453D900342296 /* ContextMenu+MenuStyle.swift in Sources */,
+				9DAB381F21E10EB600567709 /* ContextMenu+HapticFeedbackStyle.swift in Sources */,
 				2971CE8E205453D900342296 /* ContextMenu+ContainerStyle.swift in Sources */,
 				DE5D838B2055D72A0069A81D /* UIViewController+Extensions.swift in Sources */,
 				2971CE95205453D900342296 /* ClippedContainerViewController.swift in Sources */,
