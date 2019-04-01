@@ -13,7 +13,7 @@ class ClippedContainerViewController: UIViewController {
     let viewController: UIViewController
 
     private let options: ContextMenu.Options
-    private let containedViewController: UINavigationController
+    private let containedViewController: ModalNavigationViewController
 
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return viewController.preferredStatusBarStyle
@@ -22,7 +22,7 @@ class ClippedContainerViewController: UIViewController {
     init(options: ContextMenu.Options, viewController: UIViewController) {
         self.viewController = viewController
         self.options = options
-        self.containedViewController = UINavigationController(rootViewController: viewController)
+        self.containedViewController = ModalNavigationViewController(rootViewController: viewController)
         super.init(nibName: nil, bundle: nil)
         self.containedViewController.delegate = self
     }
@@ -87,16 +87,6 @@ class ClippedContainerViewController: UIViewController {
     override func preferredContentSizeDidChange(forChildContentContainer container: UIContentContainer) {
         super.preferredContentSizeDidChange(forChildContentContainer: container)
         preferredContentSize = container.preferredContentSize
-    }
-
-    override var accessibilityViewIsModal: Bool {
-        get { return true }
-        set {}
-    }
-
-    override func accessibilityPerformEscape() -> Bool {
-        dismiss(animated: UIAccessibility.isReduceMotionEnabled == false)
-        return true
     }
 
 }
