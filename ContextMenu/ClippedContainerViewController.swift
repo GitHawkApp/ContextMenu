@@ -89,6 +89,16 @@ class ClippedContainerViewController: UIViewController {
         preferredContentSize = container.preferredContentSize
     }
 
+    override var accessibilityViewIsModal: Bool {
+        get { return true }
+        set {}
+    }
+
+    override func accessibilityPerformEscape() -> Bool {
+        dismiss(animated: UIAccessibility.isReduceMotionEnabled == false)
+        return true
+    }
+
 }
 
 extension ClippedContainerViewController: UINavigationControllerDelegate {
