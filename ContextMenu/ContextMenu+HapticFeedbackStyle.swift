@@ -10,7 +10,7 @@ import Foundation
 public extension ContextMenu {
 
   /// Haptic Feedback types.
-  public enum HapticFeedbackStyle: Int {
+  enum HapticFeedbackStyle: Int {
     case light, medium, heavy
   }
 
