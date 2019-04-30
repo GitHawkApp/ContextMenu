@@ -8,5 +8,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'https://github.com/GitHawkApp/ContextMenu.git', :tag => spec.version.to_s }
   spec.source_files = 'ContextMenu/*.swift'
   spec.platform     = :ios, '9.0'
-  spec.swift_version = '4.2'
+  spec.swift_version = '5.0'
 end
