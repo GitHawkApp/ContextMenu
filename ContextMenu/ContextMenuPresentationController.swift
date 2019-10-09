@@ -58,7 +58,12 @@ class ContextMenuPresentationController: UIPresentationController {
 
     override var frameOfPresentedViewInContainerView: CGRect {
         guard let containerBounds = containerView?.bounds else { return .zero }
-        let size = presentedViewController.preferredContentSize
+        var size = presentedViewController.preferredContentSize
+
+        // cap size to inset container bounds
+        size.width = min(containerBounds.width - 2 * item.options.containerStyle.edgePadding, size.width)
+        size.height = min(containerBounds.height - 2 * item.options.containerStyle.edgePadding, size.height)
+
         let frame: CGRect
         if let corner = preferredSourceViewCorner {
             let minPadding = item.options.containerStyle.edgePadding
