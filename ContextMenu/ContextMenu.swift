@@ -15,6 +15,16 @@ public class ContextMenu: NSObject {
     public static let shared = ContextMenu()
 
     var item: Item?
+    
+    public var delegate: ContextMenuDelegate? {
+        get {
+            self.item?.delegate
+        }
+        
+        set {
+            self.item?.delegate = newValue
+        }
+    }
 
     private override init() {}
 
@@ -54,6 +64,15 @@ public class ContextMenu: NSObject {
         item.viewController.modalPresentationStyle = .custom
         item.viewController.modalPresentationCapturesStatusBarAppearance = true
         sourceViewController.present(item.viewController, animated: true)
+    }
+    
+    /// Dismiss current showing context menu.
+    ///
+    /// - Parameters:
+    ///   - animated: Animated the transition.
+    ///   - completion: The block to execute after the view controller is dismissed.
+    public func dismiss(animated: Bool = true, completion: (() -> Void)? = nil) {
+        self.item?.viewController.dismiss(animated: animated, completion: completion)
     }
 
 }

@@ -170,6 +170,10 @@ class ContextMenuPresentationController: UIPresentationController {
     }
 
     @objc func onTap(recognizer: UITapGestureRecognizer) {
+        if let delegate = item.delegate, delegate.contextMenuAllowTapToClose() == false {
+            return
+        }
+        
         guard recognizer.state == .ended,
             let containerView = self.containerView,
             presentedView?.frame.contains(recognizer.location(in: containerView)) == false
