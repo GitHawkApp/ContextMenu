@@ -9,6 +9,7 @@
 import UIKit
 
 public protocol ContextMenuDelegate: class {
+    func contextMenuAllowTapToClose() -> Bool
     func contextMenuWillDismiss(viewController: UIViewController, animated: Bool)
     func contextMenuDidDismiss(viewController: UIViewController, animated: Bool)
 }
